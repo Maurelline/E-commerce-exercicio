@@ -1,0 +1,205 @@
+body{
+    font-family: Kumbh Sans;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+li a{
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: gray;
+}
+
+li a:after{
+    content: "";
+    position: absolute;
+    transition: 0.4s;
+    background-color: hsl(26, 100%, 55%);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+li a:hover{
+    color: hsl(25, 88%, 67%)
+}
+
+li a:hover:after{
+    width: 100%;
+}
+
+#menu{
+    height: 60px;
+    width: 710px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+.card{
+    border-radius: 15px;
+    width: 350px;
+    display: block;
+    padding: 10px;
+    margin-top: -100px;
+}
+
+.thumb{
+    width: 250px;
+    height: 70px;
+    display: flex;
+}
+
+.botão{
+    background-color: hsl(26, 100%, 55%);
+    width: 220px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: -176px;
+}
+
+.botão:hover{
+    background-color:hsl(25, 89%, 48%);
+    transition: 0.3s;
+    cursor:pointer;
+}
+
+.thumbnail {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    height: 75px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.galeria{
+    margin-top: -395px;
+    margin-left: 165px;
+    border-radius: 15px;
+    height: 426px;
+    width: 376px;
+    display: inline-block;
+}
+
+pre a{
+    text-decoration: none;
+    color: hsl(26, 100%, 55%);
+}
+
+#imagem1{
+    border: 4px;
+    border-style: solid;
+    border-color: hsl(26, 100%, 55%);
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+img{
+    border-radius: 15px;
+}
+
+pre{
+    color: hsl(26, 100%, 55%);
+}
+
+span{
+    color: black;
+}
+
+h3{
+    color: hsl(26, 100%, 55%);
+    font-size: 15px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.desconto{
+    color: hsl(26, 100%, 55%);
+    font-size: 15px;
+    align-items: center;
+    background-color: hsl(223, 64%, 98%);
+}
+
+p{
+    color: hsl(220, 14%, 75%);
+}
+
+.precofinal{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.preco{
+    text-decoration: line-through;
+    color: hsl(220, 14%, 75%);
+    font-size: 18px;
+}
+
+.texto{
+    margin-left: 555px;
+    width: 350px;
+    display: inline-block;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+.corpo{
+    margin-left: 100px;
+}
+
+.carroimagem{
+    height: 60px;
+    width: 150px;
+    margin-left: 900px;
+    display: inline-block;
+    position: absolute;
+}
+
+.avatar{
+    height: 40px;
+    width: 40px;
+    margin-left: 25px;
+}
+
+.carrinho{
+    height: 20px;
+    width: 20px;
+}
+
+.adicionar{
+    font-size: 18px;
+    background-color: hsl(223, 64%, 98%);
+    width: 90px;
+    height: 26px;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+hr{
+    height: 2px;
+    width: 1020px;
+    border: none;
+    background-color: hsl(223, 64%, 98%);
+    margin-left: 15px;
+}
